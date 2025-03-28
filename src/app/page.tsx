@@ -9,7 +9,6 @@ import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
 import {IconCloud} from "@/components/magicui/icon-cloud";
-
 const BLUR_FADE_DELAY = 0.04;
 
 const slugs = [
@@ -75,6 +74,7 @@ export default function Page() {
                 <AvatarImage alt={DATA.name} src={DATA.avatarUrl} />
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
+
             </BlurFade>
           </div>
         </div>
@@ -114,6 +114,7 @@ export default function Page() {
           ))}
         </div>
       </section>
+     
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
@@ -156,6 +157,35 @@ export default function Page() {
           <BlurFade delay={BLUR_FADE_DELAY * 11}>
             <IconCloud images={images}/>
           </BlurFade>
+        </div>
+      </section>
+      <section id="coding">
+        <div className="flex min-h-0 flex-col gap-y-3">
+          <BlurFade delay={BLUR_FADE_DELAY * 5}>
+            <h2 className="text-xl font-bold">Coding Profiles</h2>
+          </BlurFade>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+
+          {DATA.coding.map((work, id) => (
+            <BlurFade
+            key={work.company}
+            delay={BLUR_FADE_DELAY * 6 + id * 0.05}
+            >
+              <ResumeCard
+                key={work.company}
+                logoUrl={work.logoUrl}
+                altText={work.company}
+                title={work.company}
+                subtitle={work.title}
+                href={work.href}
+                badges={work.badges}
+                period=""
+                description={work.description}
+                />
+            </BlurFade>
+                
+          ))}
+          </div>
         </div>
       </section>
       <section id="projects">

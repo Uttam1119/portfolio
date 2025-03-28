@@ -12,7 +12,8 @@ export const DATA = {
   summary:
     "In 2025, I am a final-year Computer Science student focused on full-stack development, AI, and backend technologies. I’ve interned at Apiero Technica Pvt. Ltd., Acompworld Technosoft Pvt. Ltd., and built various innovative projects. I’m passionate about creating impactful solutions and always seeking new challenges.",
   avatarUrl:
-    "https://drive.google.com/file/d/1of8eg76mCAK0dmZ1PrqW_4CqnRLCg9zN/view?usp=sharing",
+    // "https://drive.google.com/file/d/1of8eg76mCAK0dmZ1PrqW_4CqnRLCg9zN/view?usp=sharing",
+    "/avatar3.png",
    
   skills: [
     "Data Structures and Algorithms",
@@ -113,6 +114,69 @@ export const DATA = {
       description:
         "Led the development of new features for the Discuss platform using ReactJS, NodeJS, MongoDB, Socket.IO, and Express.js, enhancing real-time interactions and overall performance. Improved user experience, resulting in higher retention and increased daily active users. Optimized API performance and database queries to ensure smooth scalability and responsiveness.",
     },
+  ],
+  coding: [
+    {
+      company: "Codeforces",
+      badges: [],
+      href: "https://codeforces.com/profile/bunniee",
+      location: "",
+      title: "Specialist (1436 max.)",
+      logoUrl: "/codeforces.jpg",
+      start: "",
+      end: "",
+      description:
+        "",
+    },
+    {
+      company: "Leetcode",
+      badges: [],
+      href: "https://leetcode.com/uttamm_19",
+      location: "",
+      title: "Knight (1929 max.)",
+      logoUrl: "/leetcode.png",
+      start: "",
+      end: "",
+      description:
+        "",
+    },
+    {
+      company: "Codechef",
+      badges: [],
+      href: "https://www.codechef.com/users/uttamm_19",
+      location: "",
+      title: "4 Stars (1930 max.)",
+      logoUrl: "/codechef.webp",
+      start: "",
+      end: "",
+      description:
+        "",
+    },
+    {
+      company: "GeeksForGeeks",
+      badges: [],
+      href: "https://www.geeksforgeeks.org/user/uttam_19/",
+      location: "",
+      title: "700+ Problems Solved",
+      logoUrl: "/gfg.jpg",
+      start: "",
+      end: "",
+      description:
+        "",
+    },
+    {
+      company: "Meta Hacker Cup",
+      badges: [],
+      href: "https://drive.google.com/file/d/14v9mk_IeSjNZltu3JXgwb12yJRKeqaJ0/view",
+      location: "",
+      title: "Ranked 3618(AIR 988) in round 2 and 4773(AIR 1159) in round 1 in Meta HackerCup 2023",
+      logoUrl: "/meta.jpg",
+      start: "",
+      end: "",
+      description:
+        "",
+    },
+    
   ],
   education: [
     {
