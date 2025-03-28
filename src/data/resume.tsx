@@ -91,6 +91,7 @@ export const DATA = {
     {
       company: "Apiero Technica Pvt. Ltd.",
       badges: [],
+      href: "",
       location: "Bhopal, Madhya Pradesh",
       title: "Software Development Engineer Intern",
       logoUrl: "/apiero.jpeg",
@@ -102,6 +103,7 @@ export const DATA = {
     {
       company: "Acompworld Technosoft Pvt. Ltd.",
       badges: [],
+      href: "",
       location: "Bhopal, Madhya Pradesh",
       title: "Web Developer (Freelancer)",
       logoUrl:
@@ -223,7 +225,7 @@ export const DATA = {
     },
     {
       title: "TubeFlow",
-      // href: "",
+      href: "",
       active: true,
       description:
         "TubeFlow is a cooperative platform built to optimize YouTube content production and administration. It facilitates smooth collaboration among creators, managers, and editors by simplifying video uploads, metadata modifications, approval processes, and scheduling.",
