@@ -79,7 +79,7 @@ export const DATA = {
       },
       "Download CV": {
         name: "Download Resume",
-        url: "https://drive.google.com/file/d/1TVO7mZkurbgEiGueyCwBjivjXZHjn4Z2/view?usp=sharing",
+        url: "https://drive.google.com/file/d/1VPiELg0WDjopHNYUIeYGB2pLmp35oAbp/view?usp=sharing ",
         icon: Icons.download,
         navbar: true,
       },
