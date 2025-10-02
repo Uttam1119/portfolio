@@ -25,16 +25,14 @@ export const DATA = {
     "Typescript",
     "JavaScript",
     "Node.js",
-    "Langchain.js",
     "Express",
     "Python",
-    "Postgres",
+    "PostgreSQL",
     "MongoDB",
     "TailwindCSS",
     "Bootstrap",
     "Shadcn UI",
     "Magic UI",
-    "Framer Motion",
     "Git",
     "Github",
     "Bash",
@@ -79,7 +77,7 @@ export const DATA = {
       },
       "Download CV": {
         name: "Download Resume",
-        url: "https://drive.google.com/file/d/1B8-upepEAtO-k8eEcSFX0vNRky7bTT00/view?usp=drive_link",
+        url: "https://drive.google.com/file/d/1VPiELg0WDjopHNYUIeYGB2pLmp35oAbp/view?usp=sharing ",
         icon: Icons.download,
         navbar: true,
       },
@@ -181,6 +179,28 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Schedulyn",
+      href: "https://www.youtube.com/watch?v=j9oMz2YtIas",
+      active: true,
+      description:
+        "With a focus on effortless, AI-powered planning, I built Schedulyn, a web app that converts natural language into structured calendar events. It offers real-time syncing, Google Calendar integration, and an interactive timeline—using AI to interpret intent and deliver a clean, personalized schedule.",
+      technologies: ["React", "Tailwind", "Web Speech API", "Google Calender API", "Radix UI"],
+      links: [
+        {
+          type: "Demonstration",
+          href: "https://www.youtube.com/watch?v=j9oMz2YtIas",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Uttam1119/Schedulyn",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image:
+        "/Schedulyn.png",
+    },
     {
       title: "HirePrep AI",
       href: "https://hireprep-ai.vercel.app/",
