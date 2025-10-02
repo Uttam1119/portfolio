@@ -13,7 +13,7 @@ export const DATA = {
     "In 2025, I am a final-year Computer Science student focused on full-stack development, AI, and backend technologies. I’ve interned at Apiero Technica Pvt. Ltd., Acompworld Technosoft Pvt. Ltd., and built various innovative projects. I’m passionate about creating impactful solutions and always seeking new challenges.",
   avatarUrl:
     // "https://drive.google.com/file/d/1of8eg76mCAK0dmZ1PrqW_4CqnRLCg9zN/view?usp=sharing",
-    "/displayPicture.jpg",
+    "/displayyPicture.jpg",
 
   skills: [
     "Data Structures and Algorithms",
@@ -185,7 +185,13 @@ export const DATA = {
       active: true,
       description:
         "With a focus on effortless, AI-powered planning, I built Schedulyn, a web app that converts natural language into structured calendar events. It offers real-time syncing, Google Calendar integration, and an interactive timeline—using AI to interpret intent and deliver a clean, personalized schedule.",
-      technologies: ["React", "Tailwind", "Web Speech API", "Google Calender API", "Radix UI"],
+      technologies: [
+        "React",
+        "Tailwind",
+        "Web Speech API",
+        "Google Calender API",
+        "Radix UI",
+      ],
       links: [
         {
           type: "Demonstration",
@@ -198,8 +204,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image:
-        "/Schedulyn.png",
+      image: "/Schedulyn.png",
     },
     {
       title: "HirePrep AI",
