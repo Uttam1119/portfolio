@@ -13,8 +13,8 @@ export const DATA = {
     "In 2025, I am a final-year Computer Science student focused on full-stack development, AI, and backend technologies. I’ve interned at Apiero Technica Pvt. Ltd., Acompworld Technosoft Pvt. Ltd., and built various innovative projects. I’m passionate about creating impactful solutions and always seeking new challenges.",
   avatarUrl:
     // "https://drive.google.com/file/d/1of8eg76mCAK0dmZ1PrqW_4CqnRLCg9zN/view?usp=sharing",
-    "/avatar3.png",
-   
+    "/displayPicture.jpg",
+
   skills: [
     "Data Structures and Algorithms",
     "C++",
@@ -39,9 +39,7 @@ export const DATA = {
     "Github",
     "Bash",
   ],
-  navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
-  ],
+  navbar: [{ href: "/", icon: HomeIcon, label: "Home" }],
   contact: {
     email: "kumaruttam519@gmail.com",
     tel: "+91 6204267122",
@@ -107,8 +105,7 @@ export const DATA = {
       href: "",
       location: "Bhopal, Madhya Pradesh",
       title: "Web Developer (Freelancer)",
-      logoUrl:
-        "/acompworld_logo.jpeg",
+      logoUrl: "/acompworld_logo.jpeg",
       start: "Sep 2022",
       end: "Jan 2023",
       description:
@@ -125,8 +122,7 @@ export const DATA = {
       logoUrl: "/codeforces.jpg",
       start: "",
       end: "",
-      description:
-        "",
+      description: "",
     },
     {
       company: "Leetcode",
@@ -137,8 +133,7 @@ export const DATA = {
       logoUrl: "/leetcode.png",
       start: "",
       end: "",
-      description:
-        "",
+      description: "",
     },
     {
       company: "Codechef",
@@ -149,8 +144,7 @@ export const DATA = {
       logoUrl: "/codechef.webp",
       start: "",
       end: "",
-      description:
-        "",
+      description: "",
     },
     {
       company: "GeeksForGeeks",
@@ -161,30 +155,27 @@ export const DATA = {
       logoUrl: "/gfg.jpg",
       start: "",
       end: "",
-      description:
-        "",
+      description: "",
     },
     {
       company: "Meta Hacker Cup",
       badges: [],
       href: "https://drive.google.com/file/d/14v9mk_IeSjNZltu3JXgwb12yJRKeqaJ0/view",
       location: "",
-      title: "Ranked 3618(AIR 988) in round 2 and 4773(AIR 1159) in round 1 in Meta HackerCup 2023",
+      title:
+        "Ranked 3618(AIR 988) in round 2 and 4773(AIR 1159) in round 1 in Meta HackerCup 2023",
       logoUrl: "/meta.jpg",
       start: "",
       end: "",
-      description:
-        "",
+      description: "",
     },
-    
   ],
   education: [
     {
       school: "Lakshmi Narain College of Technology",
       href: "https://lnct.ac.in/",
       degree: "B.Tech in Computer Science and Engineering (AI & ML)",
-      logoUrl:
-        "/LNCT_Bhopal_Logo.png",
+      logoUrl: "/LNCT_Bhopal_Logo.png",
       start: "2021",
       end: "2025",
     },
@@ -196,7 +187,14 @@ export const DATA = {
       active: true,
       description:
         "With a focus on making career growth seamless and AI-driven, I built an AI Career Coach, a full-stack web app integrating an AI resume builder, mock interview prep, and an interactive industry trends dashboard. It features intelligent cover letter generation and ATS-optimized resume content, using AI to analyze job descriptions and personalize documents—empowering users with tailored career insights.",
-      technologies: ["Next.js", "NeonDB", "Prisma", "Gemini API", "Inngest", "Shadcn UI"],
+      technologies: [
+        "Next.js",
+        "NeonDB",
+        "Prisma",
+        "Gemini API",
+        "Inngest",
+        "Shadcn UI",
+      ],
       links: [
         {
           type: "Website",
@@ -209,8 +207,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image:
-        "/hirePrepAI.png",
+      image: "/hirePrepAI.png",
     },
     {
       title: "F.R.I.E.N.D.S.",
@@ -218,7 +215,7 @@ export const DATA = {
       active: true,
       description:
         "Frustrated with annoying ads and pop-ups on streaming sites, I built a simple, ad-free website to watch Friends without distractions. The goal was to create a smooth and enjoyable viewing experience while also using the project as a fun way to improve my JavaScript skills.",
-      technologies: ["JavaScript", "TailwindCSS",  "JSON"],
+      technologies: ["JavaScript", "TailwindCSS", "JSON"],
       links: [
         {
           type: "Website",
@@ -231,8 +228,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image:
-        "/friends-tv-series.jpg",
+      image: "/friends-tv-series.jpg",
       video: "",
     },
     {
@@ -241,12 +237,7 @@ export const DATA = {
       active: true,
       description:
         "Tired of jumping between different sites for movie details, I built a simple website where you can find everything about any movie in one place. Just search for a title, and you'll get its trailer, cast, director, reviews, and even similar movie recommendations—all in one clean, easy-to-use platform.",
-      technologies: [
-        "React.js",
-        "Javascript",
-        "react-player",
-        "saas",
-      ],
+      technologies: ["React.js", "Javascript", "react-player", "saas"],
       links: [
         {
           type: "Website",
@@ -259,8 +250,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image:
-        "/movie.png",
+      image: "/movie.png",
       unoptimized: true,
       video: "",
     },
@@ -283,8 +273,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image:
-        "/GyaanChakshu.png",
+      image: "/GyaanChakshu.png",
       video: "",
     },
     {
@@ -293,7 +282,13 @@ export const DATA = {
       active: true,
       description:
         "TubeFlow is a cooperative platform built to optimize YouTube content production and administration. It facilitates smooth collaboration among creators, managers, and editors by simplifying video uploads, metadata modifications, approval processes, and scheduling.",
-      technologies: ["Next.js", "TypeScript", "TailwindCSS", "NextJS Server Actions", "MongoDB"],
+      technologies: [
+        "Next.js",
+        "TypeScript",
+        "TailwindCSS",
+        "NextJS Server Actions",
+        "MongoDB",
+      ],
       links: [
         {
           type: "Source",
@@ -301,8 +296,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image:
-        "/tubeFlow.png",
+      image: "/tubeFlow.png",
       unoptimized: true,
     },
     {
@@ -317,7 +311,7 @@ export const DATA = {
         "TailwindCSS",
         "NodeJS",
         "MongoDB",
-        "ExpressJS"
+        "ExpressJS",
       ],
       links: [
         {
@@ -326,8 +320,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image:
-        "/chat-app.png",
+      image: "/chat-app.png",
       unoptimized: true,
       video: "",
     },
@@ -375,8 +368,7 @@ export const DATA = {
       location: "Bhopal, Madhya Pradesh",
       description:
         "Runner up of 280+ teams in the National Agro Hackathon organised by LNCT Group of Colleges. Developed a platform to remove the middleware between farmers and customers.",
-      image:
-        "/agroo.jpg",
+      image: "/agroo.jpg",
       links: [
         {
           title: "Github",
@@ -389,11 +381,11 @@ export const DATA = {
           href: "https://youtu.be/382GIqgAAWA",
         },
         {
-        title: "Link",
-        icon: <Icons.globe className="h-4 w-4" />,
-        href: "https://drive.google.com/file/d/1S3MeRpW65-Kazt7XfO6azHdlNLZlDt2e/view?usp=sharing",
-      },
-    ],
+          title: "Link",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://drive.google.com/file/d/1S3MeRpW65-Kazt7XfO6azHdlNLZlDt2e/view?usp=sharing",
+        },
+      ],
     },
     {
       title: "Dare to Start Bootcamp",
@@ -401,8 +393,7 @@ export const DATA = {
       location: "Bhopal, Madhya Pradesh",
       description:
         "Mentored 150+ students over 1 month, guiding them in web development, data structures & algorithms, and coding best practices, while assisting with project building",
-      image:
-        "d2s.webp",
+      image: "d2s.webp",
       links: [
         {
           title: "Link",
